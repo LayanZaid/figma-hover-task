@@ -1,0 +1,57 @@
+@media screen and (max-width: 992px) {
+    
+    #menu-check:checked ~ ul.flex {
+        display: flex;
+    }
+
+
+    label .open{
+        display: inherit;
+    }
+
+    .close{
+        display: none;
+    
+    }
+    #menu-check:checked ~ label .open {
+        display: none;
+    }
+
+    #menu-check:checked ~ label .close {
+        display: inline;
+    }
+
+
+
+
+
+    ul.fiex{
+        flex-direction: column;
+        position: absolute;
+        top: 81px;
+        background-color: #ffffff84;
+        width: 100%;
+        justify-content: center;
+        left: 0;
+        backdrop-filter: blur(10px);
+        padding: 20px 0;
+    }
+
+    header{
+        margin: 3rem 0;
+    }
+
+    header .flex{
+        flex-direction: column-reverse;
+        gap: 3rem;
+    }
+    .header-content{
+        max-width: 100%;
+
+    }
+
+    .services .card{
+        max-width: 100%;
+    }
+    
+}
